@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="463.2" viewBox="0 0 400 386" role="img" aria-labelledby="t" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <title id="t">Flujo de trabajo: issue con la especificación, rama, implementa el agente del área, revisa un agente de solo lectura, PR con tests, reviso yo la PR, y merge, que hago yo</title>
+  <rect x="0.5" y="0.5" width="399" height="385" rx="14" fill="#ffffff" stroke="#c6cfd4"/>
+  <path d="M40 43.0 V343.0" stroke="#a9b3b8" stroke-width="2"/>
+  <circle cx="40" cy="43.0" r="11" fill="#ffffff" stroke="#869197" stroke-width="2"/>
+  <text x="72" y="49.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Issue</tspan><tspan dx="9">con la especificación</tspan></text>
+  <circle cx="40" cy="93.0" r="11" fill="#ffffff" stroke="#869197" stroke-width="2"/>
+  <text x="72" y="99.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Rama</tspan><tspan dx="9">una por issue</tspan></text>
+  <polygon points="54.0,143.0 47.0,155.1 33.0,155.1 26.0,143.0 33.0,130.9 47.0,130.9" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <polygon points="45.9,143.0 42.9,148.1 37.1,148.1 34.1,143.0 37.1,137.9 42.9,137.9" fill="#376f68"/>
+  <text x="72" y="149.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Implementa</tspan><tspan dx="9">el agente del área</tspan></text>
+  <polygon points="54.0,193.0 47.0,205.1 33.0,205.1 26.0,193.0 33.0,180.9 47.0,180.9" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <polygon points="45.9,193.0 42.9,198.1 37.1,198.1 34.1,193.0 37.1,187.9 42.9,187.9" fill="#376f68"/>
+  <text x="72" y="199.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Revisa</tspan><tspan dx="9">un agente de solo lectura</tspan></text>
+  <circle cx="40" cy="243.0" r="11" fill="#ffffff" stroke="#869197" stroke-width="2"/>
+  <text x="72" y="249.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">PR</tspan><tspan dx="9">con tests</tspan></text>
+  <circle cx="40" cy="293.0" r="12" fill="#376f68"/>
+  <text x="72" y="299.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Reviso yo</tspan><tspan dx="9">la PR</tspan></text>
+  <circle cx="40" cy="343.0" r="12" fill="#376f68"/>
+  <text x="72" y="349.0" font-size="17" fill="#485257"><tspan font-size="18" font-weight="500" fill="#0c1316">Merge</tspan><tspan dx="9">lo hago yo</tspan></text>
+</svg>

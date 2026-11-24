@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="688.8" viewBox="0 0 400 574" role="img" aria-labelledby="t" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <title id="t">Arquitectura hexagonal del backend de react-fastapi-template: los adaptadores de entrada y de salida dependen del dominio, nunca al revés</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#376f68" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="399" height="573" rx="14" fill="#ffffff" stroke="#c6cfd4"/>
+  <text x="200" y="38" font-size="14" fill="#485257" font-weight="500" text-anchor="middle" letter-spacing="1.1">ADAPTADORES DE ENTRADA</text>
+  <rect x="20" y="52" width="114" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="77.0" y="79.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Routers</text>
+  <text x="77.0" y="100.0" font-size="16" fill="#485257" text-anchor="middle">FastAPI</text>
+  <rect x="143" y="52" width="114" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="200.0" y="79.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Esquemas</text>
+  <text x="200.0" y="100.0" font-size="16" fill="#485257" text-anchor="middle">Pydantic</text>
+  <rect x="266" y="52" width="114" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="323.0" y="79.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Middleware</text>
+  <text x="323.0" y="100.0" font-size="16" fill="#485257" text-anchor="middle">auth · logs</text>
+  <polygon points="328.0,276.0 264.0,386.9 136.0,386.9 72.0,276.0 136.0,165.1 264.0,165.1" fill="#eef3f5" stroke="#869197" stroke-width="1.5"/>
+  <polygon points="280.0,276.0 240.0,345.3 160.0,345.3 120.0,276.0 160.0,206.7 240.0,206.7" fill="#ddf4f1" stroke="#376f68" stroke-width="2"/>
+  <text x="200" y="372" font-size="16" fill="#376f68" font-weight="500" text-anchor="middle">Puertos de salida</text>
+  <text x="200" y="268" font-size="25" fill="#0c1316" font-weight="500" text-anchor="middle">Dominio</text>
+  <text x="200" y="292" font-size="16" fill="#0c1316" text-anchor="middle">modelos</text>
+  <text x="200" y="312" font-size="16" fill="#0c1316" text-anchor="middle">casos de uso</text>
+  <path d="M77.0 120.0 L169.2 201.7" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M200.0 120.0 L200.0 201.7" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M323.0 120.0 L230.8 201.7" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="20" y="432" width="124" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="82.0" y="459.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Repositorios</text>
+  <text x="82.0" y="480.0" font-size="16" fill="#485257" text-anchor="middle">SQLAlchemy</text>
+  <path d="M82.0 426.0 L162.2 393.8" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="151" y="432" width="98" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="200.0" y="459.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Tokens</text>
+  <text x="200.0" y="480.0" font-size="16" fill="#485257" text-anchor="middle">JWT</text>
+  <path d="M200.0 426.0 L200.0 393.8" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="256" y="432" width="124" height="62" rx="8" fill="#eef3f5" stroke="#c6cfd4"/>
+  <text x="318.0" y="459.0" font-size="17" fill="#0c1316" font-weight="500" text-anchor="middle">Contraseñas</text>
+  <text x="318.0" y="480.0" font-size="16" fill="#485257" text-anchor="middle">bcrypt</text>
+  <path d="M318.0 426.0 L237.8 393.8" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="200" y="520" font-size="14" fill="#485257" font-weight="500" text-anchor="middle" letter-spacing="1.1">ADAPTADORES DE SALIDA</text>
+  <text x="200" y="554" font-size="16" fill="#485257" text-anchor="middle">El dominio solo importa la biblioteca estándar.</text>
+</svg>

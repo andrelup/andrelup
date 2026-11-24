@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="314.4" viewBox="0 0 400 262" role="img" aria-labelledby="t" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <title id="t">André Costa, Backend &amp; Data Engineer</title>
+  <defs>
+    <radialGradient id="g" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="400" gradientTransform="scale(1 0.8)">
+      <stop offset="0" stop-color="#ddf4f1"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="399" height="261" rx="14" fill="url(#g)" stroke="#c6cfd4"/>
+  <rect x="28" y="38" width="28" height="3" fill="#376f68"/>
+  <text x="26" y="92" font-size="50" fill="#0c1316" font-weight="500" letter-spacing="-1.4">André Costa</text>
+  <text x="28" y="129" font-size="27" fill="#376f68" letter-spacing="-0.2">Backend &amp; Data Engineer</text>
+  <path d="M33.0 174.2 H77.1" stroke="#a9b3b8" stroke-width="1.14"/>
+  <circle cx="33.0" cy="174.2" r="2.7" fill="#869197"/>
+  <path d="M33.0 200.0 H61.9" stroke="#a9b3b8" stroke-width="1.14"/>
+  <circle cx="33.0" cy="200.0" r="2.7" fill="#869197"/>
+  <path d="M33.0 225.8 H77.1" stroke="#a9b3b8" stroke-width="1.14"/>
+  <circle cx="33.0" cy="225.8" r="2.7" fill="#869197"/>
+  <polygon points="160.0,200.0 137.0,239.8 91.0,239.8 68.0,200.0 91.0,160.2 137.0,160.2" fill="none" stroke="#a9b3b8" stroke-width="1.14"/>
+  <polygon points="146.2,200.0 130.1,227.9 97.9,227.9 81.8,200.0 97.9,172.1 130.1,172.1" fill="#eef3f5" stroke="#869197" stroke-width="1.14"/>
+  <polygon points="132.4,200.0 123.2,215.9 104.8,215.9 95.6,200.0 104.8,184.1 123.2,184.1" fill="#ddf4f1" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="160.0" cy="200.0" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="137.0" cy="239.8" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="91.0" cy="239.8" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="68.0" cy="200.0" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="91.0" cy="160.2" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <circle cx="137.0" cy="160.2" r="3.4" fill="#ffffff" stroke="#376f68" stroke-width="1.52"/>
+  <path d="M164.6 200.0 H294.0" stroke="#376f68" stroke-width="1.14"/>
+  <polygon points="296.0,220.5 334.0,206.1 372.0,220.5 334.0,235.0" fill="#eef3f5" stroke="#a9b3b8" stroke-width="1.14" stroke-linejoin="round"/>
+  <polygon points="296.0,200.0 334.0,185.6 372.0,200.0 334.0,214.4" fill="#eef3f5" stroke="#869197" stroke-width="1.14" stroke-linejoin="round"/>
+  <polygon points="296.0,179.5 334.0,165.0 372.0,179.5 334.0,193.9" fill="#ddf4f1" stroke="#376f68" stroke-width="1.52" stroke-linejoin="round"/>
+</svg>
