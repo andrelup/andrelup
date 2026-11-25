@@ -54,27 +54,24 @@ Marketplace de libros, pensado para que cada vendedor publique y venda los suyos
 
 ## Cómo trabajo
 
-**Spec Driven Development (SDD)**: la especificación va primero. Reglas comunes, requisitos, restricciones, criterios de aceptación y casos límite se fijan antes de escribir código; con ese contexto, los agentes de IA generan el código, los tests y la documentación. La especificación une el objetivo con la arquitectura, la implementación y la validación.
-
-Así lo aplico:
-
-- **Reglas comunes:** el [CLAUDE.md](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md) y los [ADR](https://github.com/andrelup/react-fastapi-template/tree/main/docs/adr) del repo.
-- **Especificación:** una issue del repo, con la descripción, las tareas y el criterio de aceptación. Cada PR parte de una.
-- **Implementación:** el agente lee la issue, la implementa y, cuando termina, abre la PR.
-- **Validación:** los tests comprueban que se cumple el criterio y yo reviso la PR.
+<!-- REVISAR: texto e imagen de SDD (#40) -->
+**Spec-Driven Development (SDD)** es una metodología por fases: primero va la Constitution, con las reglas comunes de todo el proyecto; después, cada especificación, con sus requisitos, restricciones, criterios de aceptación y casos límite. De ahí salen el plan y las tareas; solo entonces, los agentes de IA generan el código y los tests. La especificación es la fuente de verdad para personas y agentes: el resultado se valida contra ella y los cambios empiezan por ella.
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (min-width: 1012px)" srcset="./assets/workflow-wide-dark.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/workflow-narrow-dark.svg">
-  <source media="(max-width: 1011px)" srcset="./assets/workflow-narrow-light.svg">
-  <img src="./assets/workflow-wide-light.svg" alt="Flujo de trabajo: issue con la especificación, rama, implementa el agente del área, revisa un agente de solo lectura, PR con tests, reviso yo la PR, y merge, que hago yo.">
+  <source media="(prefers-color-scheme: dark) and (min-width: 1280px)" srcset="./assets/sdd-wide-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sdd-narrow-dark.svg">
+  <source media="(max-width: 1279px)" srcset="./assets/sdd-narrow-light.svg">
+  <img src="./assets/sdd-wide-light.svg" alt="Spec-Driven Development en dos niveles. Nivel de proyecto, una vez: Constitution, principios, estándares y límites para todo el proyecto. Nivel de especificación, por cada funcionalidad o bug, en seis fases: 1 Specify, qué y por qué, con criterios de aceptación; 2 Clarify, resolver ambigüedades y casos límite; 3 Plan, arquitectura, flujos y restricciones; 4 Tasks, unidades listas para implementar; 5 Implement, código y tests con agentes de IA; 6 Validate, verificar el resultado contra la especificación.">
 </picture>
 </p>
 
-- [Los agentes que escriben](https://github.com/andrelup/react-fastapi-template/tree/main/.claude/agents) tienen cada uno su área: backend, frontend, base de datos o CI.
-- Los agentes revisores, de [backend](https://github.com/andrelup/react-fastapi-template/blob/main/.claude/agents/backend-reviewer.md) y de [frontend](https://github.com/andrelup/react-fastapi-template/blob/main/.claude/agents/frontend-reviewer.md), solo tienen herramientas de lectura: informan, no corrigen.
-- [Regla del repo](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md#merging-is-the-users-job--never-the-agents): el agente termina en la PR, con los checks en verde. La última revisión y el merge son míos. 
+Lo uso en mis proyectos. En el template, la Constitution son su [CLAUDE.md](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md), sus [guías](https://github.com/andrelup/react-fastapi-template/tree/main/docs) y sus [ADR](https://github.com/andrelup/react-fastapi-template/tree/main/docs/adr). Dos ejemplos, de la especificación al código:
+
+- **react-fastapi-template**, filtro por propietario en la búsqueda: [issue #61](https://github.com/andrelup/react-fastapi-template/issues/61) → [PR #73](https://github.com/andrelup/react-fastapi-template/pull/73)
+- **BookShelf**, bloqueo optimista en la API: [issue #45](https://github.com/andrelup/bookshelf/issues/45) → [PR #59](https://github.com/andrelup/bookshelf/pull/59)
+
+En el template, los [agentes que escriben](https://github.com/andrelup/react-fastapi-template/tree/main/.claude/agents) se reparten por área, los revisores de [backend](https://github.com/andrelup/react-fastapi-template/blob/main/.claude/agents/backend-reviewer.md) y [frontend](https://github.com/andrelup/react-fastapi-template/blob/main/.claude/agents/frontend-reviewer.md) solo tienen herramientas de lectura, y [la última revisión y el merge son míos](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md#merging-is-the-users-job--never-the-agents).
 
 Elijo la arquitectura según el problema:
 

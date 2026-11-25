@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="388" viewBox="0 0 846 388" role="img" aria-labelledby="t" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <title id="t">Spec-Driven Development en dos niveles. Nivel de proyecto, una vez: Constitution, principios, estándares y límites para todo el proyecto. Nivel de especificación, por cada funcionalidad o bug, en seis fases: 1 Specify, qué y por qué, con criterios de aceptación; 2 Clarify, resolver ambigüedades y casos límite; 3 Plan, arquitectura, flujos y restricciones; 4 Tasks, unidades listas para implementar; 5 Implement, código y tests con agentes de IA; 6 Validate, verificar el resultado contra la especificación</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#376f68" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="845" height="387" rx="14" fill="#ffffff" stroke="#c6cfd4"/>
+  <rect x="16" y="16" width="814" height="104" rx="10" fill="#eef3f5" stroke="#667076" stroke-width="1.5"/>
+  <text x="32" y="46" font-size="16" fill="#485257" font-weight="500">Proyecto · una vez</text>
+  <text x="32" y="78" font-size="20" fill="#0c1316" font-weight="500">Constitution</text>
+  <text x="32" y="104" font-size="16" fill="#485257">Principios, estándares y límites para todo el proyecto</text>
+  <path d="M423 122 V146" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <rect x="16" y="148" width="814" height="224" rx="10" fill="none" stroke="#869197" stroke-width="1.5"/>
+  <text x="32" y="180" font-size="16" fill="#485257" font-weight="500">Especificación · por cada funcionalidad o bug</text>
+  <circle cx="92.2" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="92.2" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">1</text>
+  <path d="M111.2 228 H205.5" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="92.2" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Specify</text>
+  <text x="92.2" y="298" font-size="16" fill="#485257" text-anchor="middle">Qué y por qué,</text>
+  <text x="92.2" y="318" font-size="16" fill="#485257" text-anchor="middle">con criterios</text>
+  <text x="92.2" y="338" font-size="16" fill="#485257" text-anchor="middle">de aceptación</text>
+  <circle cx="224.5" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="224.5" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">2</text>
+  <path d="M243.5 228 H337.8" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="224.5" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Clarify</text>
+  <text x="224.5" y="298" font-size="16" fill="#485257" text-anchor="middle">Resolver</text>
+  <text x="224.5" y="318" font-size="16" fill="#485257" text-anchor="middle">ambigüedades</text>
+  <text x="224.5" y="338" font-size="16" fill="#485257" text-anchor="middle">y casos límite</text>
+  <circle cx="356.8" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="356.8" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">3</text>
+  <path d="M375.8 228 H470.2" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="356.8" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Plan</text>
+  <text x="356.8" y="298" font-size="16" fill="#485257" text-anchor="middle">Arquitectura,</text>
+  <text x="356.8" y="318" font-size="16" fill="#485257" text-anchor="middle">flujos y</text>
+  <text x="356.8" y="338" font-size="16" fill="#485257" text-anchor="middle">restricciones</text>
+  <circle cx="489.2" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="489.2" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">4</text>
+  <path d="M508.2 228 H602.5" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="489.2" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Tasks</text>
+  <text x="489.2" y="298" font-size="16" fill="#485257" text-anchor="middle">Unidades</text>
+  <text x="489.2" y="318" font-size="16" fill="#485257" text-anchor="middle">listas para</text>
+  <text x="489.2" y="338" font-size="16" fill="#485257" text-anchor="middle">implementar</text>
+  <circle cx="621.5" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="621.5" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">5</text>
+  <path d="M640.5 228 H734.8" stroke="#869197" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="621.5" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Implement</text>
+  <text x="621.5" y="298" font-size="16" fill="#485257" text-anchor="middle">Código y tests</text>
+  <text x="621.5" y="318" font-size="16" fill="#485257" text-anchor="middle">con agentes</text>
+  <text x="621.5" y="338" font-size="16" fill="#485257" text-anchor="middle">de IA</text>
+  <circle cx="753.8" cy="228" r="15" fill="#ffffff" stroke="#376f68" stroke-width="2"/>
+  <text x="753.8" y="233.5" font-size="16" fill="#0c1316" font-weight="500" text-anchor="middle">6</text>
+  <text x="753.8" y="274" font-size="18" fill="#0c1316" font-weight="500" text-anchor="middle">Validate</text>
+  <text x="753.8" y="298" font-size="16" fill="#485257" text-anchor="middle">Verificar el</text>
+  <text x="753.8" y="318" font-size="16" fill="#485257" text-anchor="middle">resultado</text>
+  <text x="753.8" y="338" font-size="16" fill="#485257" text-anchor="middle">contra la</text>
+  <text x="753.8" y="358" font-size="16" fill="#485257" text-anchor="middle">especificación</text>
+</svg>
