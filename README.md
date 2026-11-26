@@ -55,7 +55,7 @@ Marketplace de libros, pensado para que cada vendedor publique y venda los suyos
 ## Cómo trabajo
 
 <!-- REVISAR: texto e imagen de SDD (#40) -->
-**Spec-Driven Development (SDD)** es una metodología por fases: primero va la Constitution, con las reglas comunes de todo el proyecto; después, cada especificación, con sus requisitos, restricciones, criterios de aceptación y casos límite. De ahí salen el plan y las tareas; solo entonces, los agentes de IA generan el código y los tests. La especificación es la fuente de verdad para personas y agentes: el resultado se valida contra ella y los cambios empiezan por ella.
+**Spec-Driven Development (SDD)** es una metodología por fases para desarrollar software con agentes de IA: primero va la Constitution, con las reglas comunes de todo el proyecto; después, cada especificación, con sus requisitos, restricciones, criterios de aceptación y casos límite. De ahí salen el plan y las tareas; solo entonces, los agentes generan el código y los tests. La especificación es la fuente de verdad para personas y agentes: el resultado se valida contra ella y los cambios empiezan por ella.
 
 <p align="center">
 <picture>
@@ -66,7 +66,7 @@ Marketplace de libros, pensado para que cada vendedor publique y venda los suyos
 </picture>
 </p>
 
-Lo uso en mis proyectos. En el template, la Constitution son su [CLAUDE.md](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md), sus [guías](https://github.com/andrelup/react-fastapi-template/tree/main/docs) y sus [ADR](https://github.com/andrelup/react-fastapi-template/tree/main/docs/adr). Dos ejemplos, de la especificación al código:
+Lo uso en mis proyectos. En el template, la Constitution está en su [CLAUDE.md](https://github.com/andrelup/react-fastapi-template/blob/main/CLAUDE.md) y sus [guías](https://github.com/andrelup/react-fastapi-template/blob/main/docs/README.md). Dos ejemplos, de la especificación al código:
 
 - **react-fastapi-template**, filtro por propietario en la búsqueda: [issue #61](https://github.com/andrelup/react-fastapi-template/issues/61) → [PR #73](https://github.com/andrelup/react-fastapi-template/pull/73)
 - **BookShelf**, bloqueo optimista en la API: [issue #45](https://github.com/andrelup/bookshelf/issues/45) → [PR #59](https://github.com/andrelup/bookshelf/pull/59)
